@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Tutors - Connecting Generations through Mathematics & ICT</title>
+    <!-- Tailwind CSS CDN for Modern styling -->
+    <script src="https://jsdelivr.net"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+        .accordion-open { max-height: 500px; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- 📢 TOP ANNOUNCEMENT BANNER -->
+    <div class="bg-amber-500 text-slate-900 font-bold px-4 py-2 text-center text-sm md:text-base shadow-sm">
+        🔥 <span class="uppercase">Holiday Revision Bootcamp Approaching!</span> Join our official WhatsApp Community for real-time exam tips & updates. 
+        <a href="https://whatsapp.com" target="_blank" class="underline ml-2 hover:text-amber-950"><i class="fab fa-whatsapp"></i> Join Here</a>
+    </div>
+
+    <!-- 🌐 GLOBAL HEADER -->
+    <header class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-center md:text-left">
+                <h1 class="text-xl md:text-2xl font-black tracking-tight text-teal-400">ELITE TUTORS</h1>
+                <p class="text-xs text-slate-300 font-medium uppercase tracking-wider">Connecting Generations Through Mathematics & ICT</p>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-6 font-semibold text-sm tracking-wide">
+                <a href="#home" class="hover:text-teal-400 transition">HOME</a>
+                <a href="#curriculum" class="hover:text-teal-400 transition">CURRICULUM</a>
+                <a href="#quizzes" class="hover:text-teal-400 transition">CBC QUIZZES</a>
+                <a href="#premium" class="hover:text-teal-400 transition">PREMIUM NOTES</a>
+                <a href="#dashboards" class="hover:text-teal-400 transition">PORTALS</a>
+                <a href="#faq" class="hover:text-teal-400 transition">FAQ</a>
+            </nav>
+            <div class="bg-teal-500 text-slate-900 text-xs font-black px-3 py-1.5 rounded-full shadow">
+                ⚡ 24/7 ACTIVE SUPPORT
+            </div>
+        </div>
+    </header>
+
+    <!-- 🏔️ HERO SECTION -->
+    <section id="home" class="bg-gradient-to-b from-blue-900 to-blue-950 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-blue-800 text-teal-400 font-bold px-4 py-1.5 rounded-full text-xs tracking-widest uppercase inline-block mb-4 border border-blue-700">Empowering Ugandan Learners</span>
+            <h2 class="text-3xl md:text-5xl font-black mb-6 leading-tight">Bridging Generational Gaps Using Logic & Technological Skillsets</h2>
+            <p class="text-slate-300 text-base md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
+                Welcome to your premier educational portal. We merge classical mathematical logic frameworks with cutting-edge Information and Communications Technology (ICT) mapped directly to the modern Ugandan curriculum.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#quizzes" class="bg-teal-500 hover:bg-teal-400 text-slate-900 font-black px-8 py-3 rounded-lg shadow-lg transition">Start Free CBC Quiz</a>
+                <a href="#premium" class="bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-bold px-8 py-3 rounded-lg transition">Browse Premium Books</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📚 THE CURRICULUM VAULT -->
+    <section id="curriculum" class="py-16 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl md:text-3xl font-black text-blue-950">Academic Core Modules</h3>
+            <p class="text-slate-600 mt-2">Comprehensive syllabus paths for deep structural understanding.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Math Grid -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center text-blue-900 text-xl font-bold">∑</span>
+                    <h4 class="text-xl font-black text-blue-950">MATHEMATICS LOGIC FRAMEWORKS</h4>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">📐 Sets & Logic</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">📈 Functions & Mapping</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">⏱️ Functional Limits</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🧬 Differential Calculus</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">📊 Matrix Operations</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🔢 Linear Algebra</div>
+                </div>
+            </div>
+            <!-- ICT Grid -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="w-10 h-10 bg-teal-100 rounded-xl flex items-center justify-center text-teal-700 text-xl"><i class="fas fa-laptop-code"></i></span>
+                    <h4 class="text-xl font-black text-blue-950">ICT INNOVATION COMPETENCIES</h4>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🖥️ Computer Basics</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">💾 Software Systems</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🌐 Networking Protocols</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🌍 Internet Architecture</div>
+                    <div class="bg-slate-50 p-3 rounded-lg text-sm font-semibold border border-slate-100">🛡️ Cyber Security</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📝 UGANDA CBC QUIZ ENGINE -->
+    <section id="quizzes" class="py-16 bg-blue-950 text-white px-4">
+        <div class="max-w-3xl mx-auto bg-blue-900 rounded-2xl p-6 md:p-8 shadow-2xl border border-blue-800">
+            <div class="text-center mb-6">
+                <span class="bg-teal-500 text-slate-900 font-bold px-3 py-1 rounded-full text-xs uppercase tracking-wide">NCDC Framework</span>
+                <h3 class="text-2xl md:text-3xl font-black mt-2">Interactive CBC Diagnostic Engine</h3>
+                <p class="text-slate-300 text-sm mt-1">Select your standard tier level below to begin tracking evaluations.</p>
+            </div>
+            
+            <div class="mb-6 flex justify-center flex-wrap gap-2">
+                <button onclick="loadQuiz('S1')" class="quiz-tier-btn bg-teal-500 text-slate-900 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 1</button>
+                <button onclick="loadQuiz('S2')" class="quiz-tier-btn bg-blue-800 text-slate-200 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 2</button>
+                <button onclick="loadQuiz('S3')" class="quiz-tier-btn bg-blue-800 text-slate-200 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 3</button>
+                <button onclick="loadQuiz('S4')" class="quiz-tier-btn bg-blue-800 text-slate-200 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 4</button>
+                <button onclick="loadQuiz('S5')" class="quiz-tier-btn bg-blue-800 text-slate-200 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 5</button>
+                <button onclick="loadQuiz('S6')" class="quiz-tier-btn bg-blue-800 text-slate-200 px-4 py-2 rounded-lg font-bold text-sm tracking-wide transition">Senior 6</button>
+            </div>
+
+            <div id="quiz-box" class="bg-blue-950 p-6 rounded-xl border border-blue-800">
+                <!-- Injected content based on functions below -->
+                <h4 id="quiz-question" class="text-lg font-bold mb-4 text-teal-300">Loading Question...</h4>
+                <div id="quiz-options" class="space-y-3"></div>
+                <div id="quiz-feedback" class="mt-4 p-3 rounded-lg text-sm font-semibold hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 💰 PREMIUM PDF NOTE MARKETPLACE -->
+    <section id="premium" class="py-16 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl md:text-3xl font-black text-blue-950">Premium Educational Resource Catalog</h3>
+            <p class="text-slate-600 mt-2">Comprehensive syllabus guides downloadable instantly after secure mobile validation.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <!-- Item 1 -->
+            <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between">
+                <div>
